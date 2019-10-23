@@ -1,0 +1,43 @@
+.contenedor{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 1fr 3fr 1fr 1fr;
+   /* grid-template-columns: repeat(9,1fr); otra manera de reartir en 9 veces una fraccion :3*/
+
+        }
+.menu{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: ;
+    
+}
+.play{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end:  1;
+    grid-row-start: ;
+    grid-row-end: ;
+}
+.play-datos{
+    background-color: magenta;
+    grid-column-start: 1;
+    grid-row-start: ;
+}
+.recomendados{
+    background-color: orange;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: span 4;
+}
+.comentarios{
+    background-color:turquoise;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: ;
+    grid-row-end: ;
+}
